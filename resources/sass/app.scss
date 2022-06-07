@@ -1,0 +1,21 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    display: block;
+}
+
+.card-effect {
+    box-shadow: 0 8px 20px 0 rgb(221 223 226);
+    border: 1px solid rgb(233 236 239);
+
+    .card-header {
+        border-bottom: 1px solid rgb(242 245 247);
+    }
+}
